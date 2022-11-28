@@ -1,0 +1,17 @@
+body {
+    padding:0px;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .blue_button {
+    border-radius: 25px;
+    background: blue;
+    padding: 20px;
+    width: 125px;
+    height: 25px;
+    margin:auto
+  }
