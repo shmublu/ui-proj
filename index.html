@@ -5,8 +5,8 @@
     <link href="./main.css" rel="stylesheet" />
     <title>FoundIt Homepage</title>
     <script type="text/javascript">
-    function referToOtherPlace() {
-        window.location.href = "login.html";
+    function referToOtherPlace(dest) {
+        window.location.href = dest;
     }
 
     </script>
@@ -18,9 +18,9 @@
     </div>
         <div class = "buttons center">
             <p>Been here before?</p>
-            <div class = "blue_button" onclick="referToOtherPlace();">Login</div>
+            <div class = "blue_button" onclick="referToOtherPlace('login.html');">Login</div>
             <p>First Timer?</p>
-            <div class = "blue_button">Create Profile</div>
+            <div class = "blue_button" onclick="referToOtherPlace('register.html');">Create Profile</div>
             
             
         </div>
