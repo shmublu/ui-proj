@@ -15,3 +15,7 @@ body {
     height: 25px;
     margin:auto;
   }
+  #forgot_pass {
+    padding-left: 70px;
+    font-size: 12px;
+  }
